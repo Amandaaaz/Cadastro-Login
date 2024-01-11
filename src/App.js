@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 import jpIMG from "./assets/jp.svg";
-
 import "./styles.css";
 
 function App() {
