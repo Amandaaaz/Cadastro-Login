@@ -9,6 +9,18 @@ body, html {
   font-family: Nunito, sans-serif;
 }
 
+.success-message {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+.highlighted {
+  color: #6a7dfe; /* Cor destacada, você pode ajustar conforme necessário */
+  font-weight: bold;
+  text-align: center;
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
@@ -22,7 +34,7 @@ body, html {
   align-items: center;
   justify-content: center;
   padding: 15px;
-  background-color: #DCDEDC;
+  background-color: #fdfdfd;
 }
 
 .wrap-login {
@@ -56,6 +68,18 @@ body, html {
   position: relative;
   border-bottom: 2px solid #fff;
   margin-bottom: 37px;
+}
+
+.wrap-input:hover .input {
+  border-color: #6a7dfe; 
+}
+
+.wrap-input:hover .focus-input::before {
+  width: 100%; 
+}
+
+.wrap-input:hover .focus-input::after {
+  top: -15px; 
 }
 
 .input {
@@ -95,11 +119,11 @@ body, html {
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
-  background: #6a7dfe;
-  background: -webkit-linear-gradient(to left, #21d4fd, #b721ff);
-  background: -o-linear-gradient(to left, #21d4fd, #b721ff);
-  background: -moz-linear-gradient(to left, #21d4fd, #b721ff);
-  background: linear-gradient(to left, #21d4fd, #b721ff);
+  background: #6a7dfe; /* Laranja */
+  background: -webkit-linear-gradient(to left, #FFA500, #808080, #1E90FF, #4169E1); /* Laranja, Cinza, Azul Claro e Azul Escuro */
+  background: -o-linear-gradient(to left, #FFA500, #808080, #1E90FF, #4169E1);
+  background: -moz-linear-gradient(to left, #FFA500, #808080, #1E90FF, #4169E1);
+  background: linear-gradient(to left, #FFA500, #808080, #1E90FF, #4169E1);
 }
 
 .focus-input::after {
@@ -159,11 +183,11 @@ body, html {
   align-items: center;
   width: 100%;
   height: 50px;
-  background: #6a7dfe;
-  background: -webkit-linear-gradient(to left, #21d4fd, #b721ff);
-  background: -o-linear-gradient(to left, #21d4fd, #b721ff);
-  background: -moz-linear-gradient(to left, #21d4fd, #b721ff);
-  background: linear-gradient(to left, #21d4fd, #b721ff);
+  background: #6a7dfe; /* Laranja */
+  background: -webkit-linear-gradient(to left, #FFA500, #808080, #1E90FF, #4169E1); /* Laranja, Cinza, Azul Claro e Azul Escuro */
+  background: -o-linear-gradient(to left, #FFA500, #808080, #1E90FF, #4169E1);
+  background: -moz-linear-gradient(to left, #FFA500, #808080, #1E90FF, #4169E1);
+  background: linear-gradient(to left, #FFA500, #808080, #1E90FF, #4169E1);
 }
 
 .login-form-btn:hover {
