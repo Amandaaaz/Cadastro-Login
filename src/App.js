@@ -20,7 +20,7 @@ function App() {
 
     setCadastroSucesso(true);
     console.log("Cadastro realizado com sucesso!");
-  };
+  }; 
 
   return (
     <div className="container">
